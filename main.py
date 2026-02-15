@@ -31,7 +31,7 @@ class Calculator(QWidget):
 
     def activateMessage(self):  #핸들러 함수 수정 : 메세지가 텍스트 에디트에 출력되도록
         # QMessageBox.information(self, "information", "Button clicked!")
-        self.te1.appendPlainText("Vutton clicked!")
+        self.te1.appendPlainText("Button clicked!")
         
 if __name__ == '__main__':
     app=QApplication(sys.argv)
