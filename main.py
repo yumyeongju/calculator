@@ -18,7 +18,7 @@ class Calculator(QWidget):
         self.btn1.clicked.connect(self.activateMessage) 
 
         self.btn2=QPushButton('Clear', self)  
-        self.btn2.clicked.connect(self.ClearMessage)
+        self.btn2.clicked.connect(self.clearMessage)
 
         hbox = QHBoxLayout()
         hbox.addStretch(1)
