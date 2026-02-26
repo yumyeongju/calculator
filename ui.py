@@ -1,4 +1,4 @@
-#ch 6.2.1 ui.py
+#ch 6.3.2 ui.py
 from PyQt5.QtWidgets import (QApplication, QWidget, QPushButton, QVBoxLayout,
                              QMessageBox, QPlainTextEdit, QHBoxLayout,
                              QLineEdit, QComboBox)
@@ -50,7 +50,7 @@ class View(QWidget):
         self.resize(256, 256)
         self.show()
 
-    def activateMessage(self):
+    def activateMessage(self, text):
         self.te1.appendPlainText("Button clicked!")
 
     def clearMessage(self):
