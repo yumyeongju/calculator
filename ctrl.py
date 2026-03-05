@@ -1,4 +1,4 @@
-#ch 6.6.7 ctrl.py
+#ch 7.1.3 ctrl.py
 class Control:
 
     def __init__(self, view):
@@ -23,3 +23,15 @@ class Control:
 
     def sum(self, a, b):
         return a+b
+    
+    def sub(self, a, b):
+        return a-b
+    
+    def mul(self, a, b):
+        return a*b
+    
+    def div(self, a, b):
+        return a/b
+    
+    def pow(self, a, b):
+        return pow(a,b)
